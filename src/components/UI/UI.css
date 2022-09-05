@@ -1,0 +1,25 @@
+.prim-btn {
+  background: var(--primary-btn);
+  color: var(--primary-title);
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  margin-right: 5px;
+}
+
+.sec-btn {
+  background-color: var(--secondary-btn);
+  color: var(--primary-text);
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.sec-btn svg {
+  margin: 0 5px;
+}

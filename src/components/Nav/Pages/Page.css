@@ -1,0 +1,42 @@
+.page {
+  margin: 20px 0 20px 0;
+}
+
+.single-page-head {
+  transition: 300ms;
+  display: flex;
+  justify-content: space-between;
+}
+.single-page-head:hover {
+  color: var(--cream-white);
+  transition: 300ms;
+}
+
+.single-page-head span {
+  margin-left: 10px;
+}
+
+.subpage {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.subpage:hover {
+  transition: ease 300ms;
+  background: var(--black-trans);
+  color: var(--primary-title);
+}
+
+.active {
+  transform: rotate(180deg);
+}
+.hide {
+  transition: 300ms;
+  display: none;
+}
+.angle-down {
+  cursor: pointer;
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

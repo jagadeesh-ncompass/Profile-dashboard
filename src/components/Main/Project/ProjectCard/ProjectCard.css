@@ -1,0 +1,107 @@
+.project-card {
+  border-radius: 8px;
+  max-width: 360px;
+  height: 340px;
+  background-color: var(--secondary-bg);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  justify-self: center;
+  width: 100%;
+}
+.card-head {
+  margin: 10px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--secondary-title);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-img {
+  height: 40px;
+}
+
+.status {
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.mini-card p {
+  margin: 0;
+}
+
+.progress {
+  color: #276ef3;
+  background-color: #279bf325;
+}
+.pending {
+  color: #62657e;
+  background: #4a4d6421;
+}
+
+.completed {
+  color: var(--green);
+  background: #337e552a;
+}
+
+.mini-card-container {
+  display: flex;
+}
+.user-bubble {
+  display: flex;
+}
+
+.bubble {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 0 0 -6px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-title);
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
+}
+
+.bubble:hover {
+  top: -6px;
+}
+.bg-blue {
+  background: blue;
+}
+.bg-yellow {
+  background: yellow;
+}
+.bg-red {
+  background: red;
+}
+.bg-green {
+  background: var(--green);
+}
+
+.card-title-color {
+  color: #cdcdd3;
+}
+
+.dotted-border {
+  border: 2px dashed var(--secondary-title);
+}
+@media only screen and (max-width: 850px) {
+  .project-card {
+    width: 90%;
+  }
+}

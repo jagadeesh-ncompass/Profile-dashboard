@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Main from "./components/Main/Main";
+import Nav from "./components/Nav/Nav";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { useState } from "react";
+
+library.add(faBars);
 function App() {
+  const [openNav, setopenNav] = useState(true);
+  const navHandler = () => {
+    setopenNav((current) => !current);
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FontAwesomeIcon
+        icon={faBars}
+        className="fa-solid fa-bars fa-lg"
+        onClick={navHandler}
+      />
+      <Nav openNav={openNav} />
+      <Main toggleNav={setopenNav} />
     </div>
   );
 }

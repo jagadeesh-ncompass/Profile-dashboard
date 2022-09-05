@@ -1,0 +1,29 @@
+main {
+  margin-left: 250px;
+  grid-area: module-host;
+  min-width: 0;
+  position: relative;
+}
+.main-container {
+  margin: 0 50px;
+  height: 100vh;
+}
+@media only screen and (max-width: 850px) {
+  main {
+    margin: 20px 0 0 0;
+  }
+  .main-container {
+    margin: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+  .main-container {
+    margin: 0 30px;
+  }
+}
+@media only screen and (max-width: 1250px) and (min-width: 850px) {
+  .main-container {
+    margin: 0 30px;
+  }
+}

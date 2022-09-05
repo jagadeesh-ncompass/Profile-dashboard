@@ -1,0 +1,223 @@
+.profile-container {
+  height: 35%;
+  background-color: var(--secondary-bg);
+  margin: 10px 0 0 0;
+  border-radius: 8px;
+  position: relative;
+  padding: 10px 20px;
+}
+
+.profile-pic {
+  border-radius: 8px;
+  width: 180px;
+  height: 180px;
+}
+.profile {
+  margin-top: 10px;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+}
+.profile-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.profile-left {
+  padding: 5px;
+  margin: 0;
+  font-size: 20px;
+  color: var(--primary-title);
+}
+.profile p {
+  margin: 0;
+}
+.fa-certificate {
+  color: #279cf3;
+}
+.fa-stack {
+  display: inline-block;
+  height: 1em;
+  line-height: 1em;
+  position: relative;
+  vertical-align: middle;
+  width: 1.5em;
+}
+
+.user-info {
+  color: var(--secondary-title);
+  font-size: 14px;
+  margin-top: 10px !important;
+}
+.user-info svg {
+  margin: 0 5px 0 2px;
+}
+.user-info span {
+  margin: 10px 20px 0 0;
+}
+.project-info {
+  margin: 30px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.mini-card {
+  padding: 10px 20px;
+  border: 1px solid var(--secondary-title);
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.mini-card .caption {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.mini-card i {
+  margin: 0 5px 0 5px;
+}
+
+.green {
+  color: var(--green);
+}
+.red {
+  color: red;
+}
+.white {
+  color: var(--primary-title);
+}
+.profile-completion {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+}
+
+.profile-completion-head {
+  display: flex;
+  justify-content: space-between;
+}
+.completion-bar {
+  margin: 10px 0 10px 0;
+  max-width: 300px;
+  min-width: 250px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.green-50 {
+  background: linear-gradient(
+    to right,
+    var(--green) 50%,
+    var(--secondary-title) 50%
+  );
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 850px) {
+  .profile-completion {
+    position: absolute;
+    top: 70%;
+    left: 30px;
+    width: fit-content;
+  }
+  .mini-card {
+    padding: 10px 12px;
+  }
+  .profile-container {
+    height: 45%;
+  }
+  .right-btn-container {
+    position: absolute;
+    bottom: 35%;
+    left: 30px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .profile-pic {
+    border-radius: 8px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-content {
+    flex-direction: column;
+  }
+  .project-info {
+    position: absolute;
+    left: 20px;
+  }
+  .right-btn-container {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    left: 0px;
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+  .right-btn-container button {
+    flex: 2;
+  }
+  .right-btn-container button i {
+    flex: 1;
+  }
+  .profile-container {
+    height: 45%;
+  }
+  .profile-completion {
+    bottom: 47px;
+    left: 20px;
+    top: unset;
+    right: unset;
+  }
+  .mini-card {
+    margin-right: 10px;
+    padding: 10px 10px;
+  }
+  .user-info span {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+  .profile-completion {
+    position: absolute;
+    top: 70%;
+    left: 30px;
+    width: fit-content;
+  }
+  .mini-card {
+    padding: 10px 10px;
+    margin: 0;
+  }
+  .profile-container {
+    height: 45%;
+  }
+  .right-btn-container {
+    position: absolute;
+    bottom: 35%;
+    left: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .completion-bar {
+    display: none;
+  }
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+  .profile-left {
+    font-size: 14px;
+  }
+  .user-info {
+    font-size: 10px;
+  }
+  .profile-completion {
+    display: none;
+  }
+  .earnings i {
+    margin: 0;
+  }
+  .project-info {
+    left: 15px;
+  }
+}

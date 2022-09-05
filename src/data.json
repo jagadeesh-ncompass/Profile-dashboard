@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "pages": [
+      "User Profile",
+      "Account",
+      "Authentication",
+      "Corporate",
+      "Social",
+      "Blog",
+      "FAQ",
+      "Pricing",
+      "Careers",
+      "Utilities",
+      "Widgets"
+    ],
+    "subpages": [
+      "Overview",
+      "Projects",
+      "Campaigns",
+      "Documents",
+      "Followers",
+      "Activity"
+    ]
+  }
+}
