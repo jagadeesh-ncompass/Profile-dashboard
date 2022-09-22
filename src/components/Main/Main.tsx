@@ -10,7 +10,7 @@ const Main: React.FC<{
   toggleNav: Dispatch<SetStateAction<boolean>>;
 }> = ({ toggleNav }) => {
   const closeNav = () => {
-    toggleNav((current) => !current);
+    toggleNav((current) => (current ? current : !current));
   };
   return (
     <main onClick={closeNav}>

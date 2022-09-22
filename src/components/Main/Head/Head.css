@@ -27,3 +27,10 @@
     margin: 50px 0 10px 0;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .option-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

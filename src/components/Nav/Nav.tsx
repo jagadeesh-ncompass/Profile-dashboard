@@ -1,14 +1,9 @@
 import "./Nav.css";
 
-import {
-  faAngleDown,
-  faGripHorizontal,
-} from "@fortawesome/free-solid-svg-icons";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Page from "./Pages/Page";
 import data from "../../data.json";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { faGripHorizontal } from "@fortawesome/free-solid-svg-icons";
 
 const Nav: React.FC<{ openNav: boolean }> = ({ openNav }) => {
   return (
@@ -18,7 +13,6 @@ const Nav: React.FC<{ openNav: boolean }> = ({ openNav }) => {
           <FontAwesomeIcon icon={faGripHorizontal} />
           <span>Dashboards</span>
         </div>
-        <FontAwesomeIcon icon={faAngleDown} />
       </div>
       <div className="pages">
         <p>PAGES</p>
