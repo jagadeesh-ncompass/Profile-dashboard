@@ -1,11 +1,10 @@
 import "./Page.css";
 
-import React, { useState } from "react";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
+import { useState } from "react";
 
 type propType = { page: string; subpages: string[] };
 

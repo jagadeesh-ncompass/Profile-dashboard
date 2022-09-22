@@ -21,5 +21,55 @@
       "Followers",
       "Activity"
     ]
-  }
+  },
+  "card": [
+    {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Electronic-Arts-Logo.svg",
+      "status": "In Progress",
+      "name": "Fitness App",
+      "caption": "CRM App application to HR efficiency",
+      "date": "Mar 10,2022",
+      "budget": "$284,900.00"
+    },
+    {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+      "status": "In Progress",
+      "name": "Figma",
+      "caption": "CRM App application to HR efficiency",
+      "date": "Mar 10,2022",
+      "budget": "$284,900.00"
+    },
+    {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg",
+      "status": "In Progress",
+      "name": "Slack",
+      "caption": "CRM App application to HR efficiency",
+      "date": "Mar 10,2022",
+      "budget": "$284,900.00"
+    },
+    {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg",
+      "status": "In Progress",
+      "name": "Valorant",
+      "caption": "CRM App application to HR efficiency",
+      "date": "Mar 10,2022",
+      "budget": "$284,900.00"
+    },
+    {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+      "status": "In Progress",
+      "name": "Apex",
+      "caption": "CRM App application to HR efficiency",
+      "date": "Mar 10,2022",
+      "budget": "$284,900.00"
+    },
+    {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Electronic-Arts-Logo.svg",
+      "status": "In Progress",
+      "name": "Amazon",
+      "caption": "CRM App application to HR efficiency",
+      "date": "Mar 10,2022",
+      "budget": "$284,900.00"
+    }
+  ]
 }

@@ -10,7 +10,6 @@ import Page from "./Pages/Page";
 import data from "../../data.json";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-library.add(faAngleDown, faGripHorizontal);
 const Nav: React.FC<{ openNav: boolean }> = ({ openNav }) => {
   return (
     <nav className={openNav ? "" : "open-nav"}>
