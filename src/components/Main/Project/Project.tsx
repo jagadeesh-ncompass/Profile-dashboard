@@ -18,7 +18,7 @@ const Project = () => {
           <span className="caption">Active</span>
         </div>
         <div className="option-container">
-          <SecondaryButton placeholder="Active">
+          <SecondaryButton placeholder="Active" right={true}>
             <FontAwesomeIcon icon={faAngleDown} />
           </SecondaryButton>
           <PrimaryButton placeholder="New Project" />

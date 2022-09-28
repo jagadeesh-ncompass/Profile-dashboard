@@ -89,6 +89,16 @@
   top: 50%;
   right: 30px;
 }
+.active-status {
+  width: 13px;
+  height: 13px;
+  background-color: var(--green);
+  border: 3px solid var(--secondary-bg);
+  border-radius: 50px;
+  position: absolute;
+  right: -11px;
+  top: 70%;
+}
 
 .profile-completion-head {
   display: flex;
@@ -220,6 +230,11 @@
   .project-info {
     left: 15px;
   }
+  .active-status {
+    width: 10px;
+    height: 10px;
+    top: 60%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -244,5 +259,9 @@
   }
   .user-info {
     font-size: 16px;
+  }
+  .active-status {
+    width: 13px;
+    height: 13px;
   }
 }

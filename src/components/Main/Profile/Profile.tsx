@@ -30,7 +30,10 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <div className="profile">
-        <img src={profilePic} alt="profile" className="profile-pic" />
+        <div>
+          <img src={profilePic} alt="profile" className="profile-pic" />
+          <div className="active-status"></div>
+        </div>
         <div className="profile-content">
           <div className="profile-left">
             <p>

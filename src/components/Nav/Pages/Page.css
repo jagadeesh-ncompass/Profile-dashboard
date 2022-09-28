@@ -11,6 +11,10 @@
   color: var(--cream-white);
   transition: 300ms;
 }
+.single-page-head-active {
+  color: var(--cream-white);
+  transition: 300ms;
+}
 
 .single-page-head span {
   margin-left: 10px;

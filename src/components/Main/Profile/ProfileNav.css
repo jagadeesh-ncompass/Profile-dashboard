@@ -4,7 +4,7 @@
   bottom: 0;
   color: var(--text);
   height: 40px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .profile-nav-item-container {
   display: flex;
@@ -13,6 +13,7 @@
   margin: 0 10px 0 20px;
   cursor: pointer;
   transition: 500ms;
+  font-weight: 600;
 }
 .profile-nav-item:hover {
   color: var(--primary-btn);

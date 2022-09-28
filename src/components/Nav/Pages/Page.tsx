@@ -16,7 +16,14 @@ const Page = ({ page, subpages }: propType) => {
   };
   return (
     <div className="page">
-      <div className="single-page-head" onClick={dropDownHandler}>
+      <div
+        className={
+          IsActive
+            ? "single-page-head"
+            : "single-page-head single-page-head-active"
+        }
+        onClick={dropDownHandler}
+      >
         <div>
           <FontAwesomeIcon icon={faAddressCard} />
           <span>{page}</span>
