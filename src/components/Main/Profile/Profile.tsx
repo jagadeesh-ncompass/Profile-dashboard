@@ -30,7 +30,7 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <div className="profile">
-        <div>
+        <div style={{ position: "relative" }}>
           <img src={profilePic} alt="profile" className="profile-pic" />
           <div className="active-status"></div>
         </div>
